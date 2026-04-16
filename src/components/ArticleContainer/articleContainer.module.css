@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    gap:16px;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+    grid-template-areas: "main main ."
+                         "main main ."
+                         ". . .";
+    
+     width:100% ;
+     padding: 32px; 
+                    
+}
+

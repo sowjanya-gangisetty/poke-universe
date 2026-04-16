@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding: 24px 0;
+    margin: 0 24px;
+
+}
+.header img {
+    height: 250px;
+    width: auto;
+}
+
+.title{
+    font-size: 1.25rem;
+    color: #555;
+}
+.pika{
+    font-size: 1.25rem;
+    color: #ff0000;
+}
+.ball, 
+.ball img, 
+.logo {
+    height: 100%;
+    width: auto;
+}
+.ball {
+    margin-right: 80px;
+}

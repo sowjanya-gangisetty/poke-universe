@@ -1,0 +1,19 @@
+
+.article:first-of-type {
+    grid-area: main;
+}
+
+.title{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.title h2{
+    margin: 0;
+}
+.image {
+    height: auto;
+    width: 100%;
+   object-fit: cover;
+}
